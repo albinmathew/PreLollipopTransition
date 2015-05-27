@@ -30,12 +30,6 @@ repositories {
 }
 ```
 
-```
-dependencies {
-    compile 'com.albinmathew:pre-lollipop-activity-transition:1.1.0'
-}
-```
-
 ## Code
 ### Actvity
 Start Activity in first activity.

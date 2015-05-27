@@ -21,6 +21,9 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    lintOptions {
+        abortOnError false
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -34,7 +37,7 @@ dependencies {
 }
 
 group = 'com.albinmathew'
-version = '1.0.0'
+version = '1.1.0'
 
 
 apply plugin: 'maven'
@@ -65,7 +68,7 @@ bintray {
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:support-v4:22.1.1'
 }
 
 task sourcesJar(type: Jar) {
