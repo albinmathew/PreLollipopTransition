@@ -1,4 +1,3 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kogitune.activity_transition">
+<manifest package="com.albinmathew.transitions">
     <application />
 </manifest>

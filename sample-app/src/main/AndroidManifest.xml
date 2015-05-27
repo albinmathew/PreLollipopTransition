@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kogitune.prelollipoptransition" >
+    package="com.albinmathew.prelollipoptransition">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.albinmathew.prelollipoptransition.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SubActivity"
+            android:name="com.albinmathew.prelollipoptransition.SubActivity"
             android:label="@string/title_activity_sub" >
         </activity>
         <activity
-            android:name=".SubActivity2"
+            android:name="com.albinmathew.prelollipoptransition.SubActivity2"
             android:label="@string/title_activity_sub" >
         </activity>
     </application>

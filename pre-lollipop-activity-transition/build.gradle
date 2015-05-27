@@ -12,12 +12,12 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 22
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 21
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -33,7 +33,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-group = 'com.kogitune'
+group = 'com.albinmathew'
 version = '1.0.0'
 
 
@@ -41,10 +41,10 @@ apply plugin: 'maven'
 apply plugin: 'maven-publish'
 
 
-def siteUrl = 'https://github.com/takahirom/PreLollipopTransition'
-def gitUrl = 'https://github.com/takahirom/PreLollipopTransition.git'
+def siteUrl = 'https://github.com/albinmathew/PreLollipopTransition'
+def gitUrl = 'https://github.com/albinmathew/PreLollipopTransition.git'
 bintray {
-    user = "takahirom"
+    user = "albinmathew"
     if (file("key").exists()) {
         key = file("key").text
     }
@@ -53,10 +53,10 @@ bintray {
     publish = true
     pkg {
         repo = 'maven'
-        name = 'PreLollipopTransition'
-        desc = 'Simple tool which help you to implement activity transition for pre-Lollipop devices'
+        name = 'PreLollipopTransitions'
+        desc = 'A library which help you to implement activity transition for pre-Lollipop devices'
         websiteUrl = siteUrl
-        issueTrackerUrl = 'https://github.com/takahirom/PreLollipopTransition/issues'
+        issueTrackerUrl = 'https://github.com/albinmathew/PreLollipopTransition/issues'
         vcsUrl = gitUrl
         licenses = ['Apache-2.0']
         labels = ['aar', 'android', 'animation']
