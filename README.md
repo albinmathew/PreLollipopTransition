@@ -1,7 +1,7 @@
 # PreLollipopTransition
 Simple tool which help you to implement activity and fragment transition for pre-Lollipop devices.
 
-[ ![Download](https://api.bintray.com/packages/albinmathew/maven/PreLollipopTransition/images/download.svg) ](https://bintray.com/albinmathew/maven/PreLollipopTransition/_latestVersion)  [ ![Download](https://img.shields.io/github/release/albinmathew/PreLollipopTransition.svg?label=JitPack) ](https://jitpack.io/#albinmathew/PreLollipopTransition/1.1.0)
+[![Build Status](https://travis-ci.org/albinmathew/PreLollipopTransition.svg?branch=master)](https://travis-ci.org/albinmathew/PreLollipopTransition) [ ![Download](https://api.bintray.com/packages/albinmathew/maven/PreLollipopTransition/images/download.svg) ](https://bintray.com/albinmathew/maven/PreLollipopTransition/_latestVersion)  [ ![Download](https://img.shields.io/github/release/albinmathew/PreLollipopTransition.svg?label=JitPack) ](https://jitpack.io/#albinmathew/PreLollipopTransition/1.1.0)
 
 ![prelollipopanimation](https://cloud.githubusercontent.com/assets/1386930/7614211/53ca12d8-f9d0-11e4-8b98-b6d98272f67d.gif)
 
@@ -17,7 +17,7 @@ In your app build.gradle add
 ```
 ```
 dependencies {
-	        compile 'com.github.albinmathew:PreLollipopTransition:1.1.0'
+	        compile 'com.github.albinmathew:PreLollipopTransition:1.1.1'
 	}
 ```
 or using bintray
