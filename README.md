@@ -20,7 +20,15 @@ dependencies {
 	        compile 'com.github.albinmathew:PreLollipopTransition:1.1.0'
 	}
 ```
-or using jcenter
+or using bintray
+
+```
+repositories {
+    maven {
+        url  "http://dl.bintray.com/albinmathew/maven"
+    }
+}
+```
 
 ```
 dependencies {
