@@ -1,14 +1,30 @@
 # PreLollipopTransition
 Simple tool which help you to implement activity and fragment transition for pre-Lollipop devices.
 
+[ ![Download](https://api.bintray.com/packages/albinmathew/maven/PreLollipopTransition/images/download.svg) ](https://bintray.com/albinmathew/maven/PreLollipopTransition/_latestVersion)  [ ![Download](https://img.shields.io/github/release/albinmathew/PreLollipopTransition.svg?label=JitPack) ](https://jitpack.io/#albinmathew/PreLollipopTransition/1.1.0)
+
 ![prelollipopanimation](https://cloud.githubusercontent.com/assets/1386930/7614211/53ca12d8-f9d0-11e4-8b98-b6d98272f67d.gif)
 
 ## Download
 In your app build.gradle add
 
 ```
+	repositories {
+	    maven {
+	        url "https://jitpack.io"
+	    }
+	}
+```
+```
 dependencies {
-    compile 'com.albinmathew:pre-lollipop-activity-transition:1.0.0'
+	        compile 'com.github.albinmathew:PreLollipopTransition:1.1.0'
+	}
+```
+or using jcenter
+
+```
+dependencies {
+    compile 'com.albinmathew:pre-lollipop-activity-transition:1.1.0'
 }
 ```
 
@@ -83,9 +99,6 @@ Start animation in second fragment.
         return v;
     }
 ```
-
-## Sample
-![image](https://cloud.githubusercontent.com/assets/1386930/7668974/019262a0-fc95-11e4-906a-84a2b744a12c.gif)
 
 ## Thanks
 Sample Photo
