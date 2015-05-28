@@ -13,9 +13,7 @@ import android.widget.ImageView;
 
 import java.lang.ref.WeakReference;
 
-/**
- * Created by takam on 2015/05/17.
- */
+
 public class TransitionAnimation {
     private static final String TAG = "Transition";
     public static WeakReference<Bitmap> bitmapCache;

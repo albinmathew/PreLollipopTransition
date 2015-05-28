@@ -8,9 +8,7 @@ import android.view.View;
 
 import com.albinmathew.transitions.core.TransitionBundleFactory;
 
-/**
- * Created by takam on 2015/03/26.
- */
+
 public class ActivityTransitionLauncher {
     private static final String TAG = "TransitionLauncher";
 

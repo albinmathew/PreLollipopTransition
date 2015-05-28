@@ -1,1 +1,1 @@
-include 'sample-app:','pre-lollipop-activity-transition:'
+include 'sample-app:','PreLollipopTransition:'

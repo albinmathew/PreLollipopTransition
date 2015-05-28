@@ -10,9 +10,7 @@ import android.view.animation.DecelerateInterpolator;
 import com.albinmathew.transitions.core.MoveData;
 import com.albinmathew.transitions.core.TransitionAnimation;
 
-/**
- * Created by takam on 2015/03/26.
- */
+
 public class FragmentTransition {
     private static final TimeInterpolator sDecelerator = new DecelerateInterpolator();
     private android.support.v4.app.Fragment supportFragment;

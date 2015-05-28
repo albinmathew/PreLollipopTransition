@@ -9,7 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/pre-lollipop-activity-transition" />
+            <option value="$PROJECT_DIR$/PreLollipopTransition" />
             <option value="$PROJECT_DIR$/sample-app" />
           </set>
         </option>

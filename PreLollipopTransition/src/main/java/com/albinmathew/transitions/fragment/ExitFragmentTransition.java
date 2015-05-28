@@ -8,9 +8,7 @@ import android.view.View;
 import com.albinmathew.transitions.core.MoveData;
 import com.albinmathew.transitions.core.TransitionAnimation;
 
-/**
- * Created by takam on 2015/03/30.
- */
+
 public class ExitFragmentTransition {
     private final MoveData moveData;
     private Fragment fragment;

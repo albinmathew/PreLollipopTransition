@@ -5,9 +5,7 @@ import android.os.Bundle;
 
 import com.albinmathew.transitions.BuildConfigUtils;
 
-/**
- * Created by takam on 2015/05/16.
- */
+
 public class TransitionData {
     public static final String EXTRA_IMAGE_LEFT = ".left";
     public static final String EXTRA_IMAGE_TOP = ".top";

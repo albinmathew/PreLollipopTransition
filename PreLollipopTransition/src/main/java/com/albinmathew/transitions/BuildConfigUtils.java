@@ -4,9 +4,7 @@ import android.content.Context;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by takam on 2015/05/01.
- */
+
 public class BuildConfigUtils {
     public static Object getBuildConfigValue(Context context, String fieldName) {
         try {

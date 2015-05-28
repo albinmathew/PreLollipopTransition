@@ -10,9 +10,7 @@ import android.view.animation.DecelerateInterpolator;
 import com.albinmathew.transitions.core.MoveData;
 import com.albinmathew.transitions.core.TransitionAnimation;
 
-/**
- * Created by takam on 2015/03/26.
- */
+
 public class ActivityTransition {
     private static final TimeInterpolator sDecelerator = new DecelerateInterpolator();
     private Intent fromIntent;

@@ -8,3 +8,4 @@
 *.iml
 manifest-merger-release-report.txt
 keys.gradle
+pre-lollipop-activity-transition/key

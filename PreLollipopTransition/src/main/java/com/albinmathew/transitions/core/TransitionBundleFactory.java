@@ -15,9 +15,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 
-/**
- * Created by takam on 2015/05/17.
- */
+
 public class TransitionBundleFactory {
     public static final String TEMP_IMAGE_FILE_NAME = "activity_transition_image.png";
     private static final String TAG = "Transition";

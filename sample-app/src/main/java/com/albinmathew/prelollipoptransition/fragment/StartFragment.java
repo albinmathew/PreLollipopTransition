@@ -10,9 +10,6 @@ import android.view.ViewGroup;
 import com.albinmathew.transitions.fragment.FragmentTransitionLauncher;
 import com.albinmathew.prelollipoptransition.R;
 
-/**
- * Created by takam on 2015/05/16.
- */
 public class StartFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

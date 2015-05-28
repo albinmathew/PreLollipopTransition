@@ -5,9 +5,6 @@ import android.app.Activity;
 import com.albinmathew.transitions.core.MoveData;
 import com.albinmathew.transitions.core.TransitionAnimation;
 
-/**
- * Created by takam on 2015/03/30.
- */
 public class ExitActivityTransition {
     private final MoveData moveData;
 

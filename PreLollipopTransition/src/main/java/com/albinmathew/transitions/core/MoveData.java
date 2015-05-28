@@ -2,9 +2,6 @@ package com.albinmathew.transitions.core;
 
 import android.view.View;
 
-/**
- * Created by takam on 2015/05/17.
- */
 public class MoveData {
 
     public int leftDelta;
